@@ -6,7 +6,6 @@ int main(){
     scanf("%d",&n);
     int temp=n;
     for(int i=1;i<=n;i++){
-        printf("%d ",firstnum);
         if(temp==i){
             printf("\nthe nth term of series is %d",firstnum);
             break;
