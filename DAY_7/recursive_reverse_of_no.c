@@ -13,7 +13,7 @@ int rev(int a){
 }
 int main(){
     int n;
-    printf("enter the number for the reverse");
+    printf("enter the number for the reverse:");
     scanf("%d",&n);
     int x=rev(n);
     printf("the reverse of the number is %d",x);
